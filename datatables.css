@@ -1,0 +1,102 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03 17, 19, 11:06:05 AM
+    Author     : ltu
+*/
+
+.dataTables_filter {
+    /*position: relative;
+    float: right; 
+    top: -20px; */
+    /*width: 100%;
+    left: 100%;
+    */
+    display: none;
+}
+
+.dataTables_filter input[type=search] {
+    size: 20px;
+    width: 100%;
+
+    border-radius: 4px;
+    border-color: #aaa;
+
+}
+
+.dt-button {
+    /*background-color: #006a72; */
+    background-color: steelblue;
+    color: #fff;
+    font-weight: normal;
+    border-radius: 3px;
+    border: solid 1px royalblue;
+    padding-bottom: 2px;
+}
+
+.dt-buttons {
+    /*background-color: #006a72; */
+
+    color: #fff;
+    font-weight: normal;
+    border-radius: 4px;
+    border: solid 2px transparent;
+    padding-left: 3px;
+    width: 130px;
+    background-color: #ccc;
+    background-color: #EEE;
+}
+
+
+.dataTables_wrapper .dataTables_filter {
+
+    float: right;
+    text-align: right;
+}
+.dataTables_wrapper .dataTables_filter {
+    float: right;
+    text-align: right;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    margin-left: 0.5em;
+    width: 200px;
+}
+div.dt-buttons {
+    position: relative;
+    float: left;
+}
+
+
+
+
+table.dataTable tbody tr.odd>.sorting_1
+{
+    background-color: #bcebf9;
+}
+
+table.dataTable tbody tr.even>.sorting_1  
+{
+  background-color: #FFF;  
+}
+
+
+table.dataTable.display tbody tr.odd>.sorting_1, table.dataTable.order-column.stripe tbody tr.odd>.sorting_1 
+{ background-color: #dcebf7; }
+
+table.dataTable tbody tr.selected td {
+    background-color: #ffff99 !important;
+    color: #222;
+}
+
+
+
+.dt-button.disabled {
+    background-color: #ddd;
+    border: solid 1px #AAA;
+    cursor: not-allowed;
+    background-color: #BBB;
+}

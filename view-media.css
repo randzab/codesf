@@ -1,0 +1,507 @@
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    #login-box {
+        width: 300px !important;
+        height: auto !important;
+    }
+    .col-sm-3, .col-sm-2 {
+        width: 50% !important;
+        font-size: 14px;
+    }
+    
+    .logo0 {
+        margin: auto;
+    }
+    
+    .logo0 img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: 100%;
+        padding-top: 25px;
+      }
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    #login-box {
+        width: 300px !important;
+    }
+    
+    .hotelname {
+        padding-left: 10px;
+        padding-top: 20px;
+        font-size: 24.5px;
+        text-decoration: none;
+        font-weight: 500 !important;
+    }
+    
+    .col-sm-3, .col-sm-2 {
+        width: 50% !important;
+        font-size: 100% !important;
+    }
+    .col-md-5, .col-md-6, .col-md-7,  {
+        width: 100% !important;
+    }
+    
+    .tab-link {
+        width: auto !important;
+    }
+    div.large a, .large, div.large
+    
+    /** RAB **/
+    
+    {
+        
+        padding: 20px !important;
+        
+    }
+    
+    .form-label, .text-muted, h4, .percent, .tab-link, select.form-control, div.form-group span, div.form-group b {
+        font-size: 20px !important;
+    }
+    
+    .form-control, .form-label, .button_b, li a, .ms-parent, input select, .modtitle {
+        
+        /*
+        padding: 10px !important; 
+        */
+        height: 50px;
+    }
+    
+    .input-group-addon  {
+        font-size: 25px !important;
+        padding-left: 10px !important;
+        
+    }
+    
+    textarea {
+        height: 60px !important;
+    }
+    
+    #skynav {
+        /*width: 30%; */
+        width: 25%;
+        background-color: #2299ff !important;
+    }
+    #seccontainer {
+        /*width: 70%; */
+        width: 75%;
+    }
+    
+    .nestedsidemenu-sky {
+        
+    }
+    .nestedsidemenu-sky ul li ul {
+        background-color: #2299ff !important;
+    }
+    
+    .nestedsidemenu-sky ul li a:link, .nestedsidemenu-sky ul li a:visited {
+        font-size: 25px !important;
+        
+    }
+    .nestedsidemenu-sky ul li {
+        padding: 15px !important;
+    }
+    
+    li.nav-active > a, .nestedsidemenu-sky ul li a:hover  {
+        width: 106%;
+        padding-left: -15px !important;
+    }
+    
+    a.ah1 {
+        font-size: 25px !important;
+    }
+    div.styleh2 {
+        height: 60px;
+        vertical-align: middle !important;
+    }
+    div.profile-tbar, span.searchany, #mymesg, #myreq, #numdaysresa, h4 {
+        font-size: 25px !important;
+    }
+    span#sys_date {
+        font-size: 25px !important;
+        width: 150px;
+        margin-top: 10px;
+    }
+    #breadcrumter {
+        display:none;
+    }
+    #nlink {
+        height: 50px;
+        width: 50px;
+    }
+    
+    .wrapper {
+        display: grid;
+        grid-gap: 10px 10px !important;
+        grid-template-columns: repeat(5, 120px) !important;
+        grid-template-rows: 120px 120px 120px 120px;
+    }
+    
+    .rmtdl > span, .romno {
+        font-size: 20px;
+    }
+    
+    .seccontainer {
+        overflow-x: auto !important;
+    }
+    
+    div.prof-label {
+        font-size: 18px !important;
+    }
+    table.dataTable > caption, table.dataTable > thead th, table.dataTable > tbody td, label, input.form-control {
+        font-size: 25px !important;
+    }
+    table.dataTable > tbody tr td {
+        height: 50px;
+    }
+    .tabbed > .section > div {
+        padding-top: 50px !important;
+        margin-top: 50px !important;
+        position: inherit !important;
+    }
+    
+    table.dataTable > thead th {
+        padding-right: 100px !important;
+    }
+    button img {
+        height: 50px !important;
+        width: 50px !important;
+    }
+    div.dt-buttons {
+        width: 100% !important;
+    }
+    
+    div.btn-group {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+    .modal-body {
+        max-height: 60% !important;
+    }
+    
+    .form-label {
+        margin-bottom: 150px !important;
+    }
+    
+    .dt-button {
+        margin-right: 5px;
+    }
+    
+    input[type="checkbox"] {
+        margin-left: 10px !important;
+        padding: 5px;
+    }
+    
+    .regular-checkbox + label {
+        margin-top: 10px;
+        height: 25px;
+        width: 25px;
+    }
+    .regular-checkbox:checked + label:after {
+        font-size: 25px;
+    }
+    button.ms-choice span, .ms-drop ul>li.multiple label span {
+        font-size: 25px !important;
+        padding-left: 25px !important;
+    }
+    
+    
+    .ms-drop input[type="radio"], .ms-drop input[type="checkbox"] {
+        position: relative;
+        padding-right: 10px !important;
+        margin-left: 1px !important;
+        height: 20px;
+        width: 20px;
+        margin-top: 5px;
+    }
+    
+    .ms-drop ul>li.multiple label span {
+        padding-left: 20px !important;
+    }
+    
+    .dataTables_info, .paging_simple_numbers, .paginate_button  {
+        padding-top: 10px;
+        font-size: 25px;
+    }
+    .paginate_button  {
+        padding: 6px;
+    }
+    
+    .btn-group-justified>.btn-group {
+        width: 72px;
+        text-align: center;
+    }
+    div.btn-group > button {
+
+    }
+    h4 {
+        color: #000;
+        font-weight: 600;
+    }
+    
+    .input-group-addon, .input-group-addon:last-child {
+        font-size: 25px !important;
+        padding-left: 20px !important;
+        
+    }
+    
+    .fa-times-circle  {
+        font-size: 35px !important;
+        padding-top: 2px;
+    }
+    
+    label.multi-select-menuitem {
+        padding-left: 10px;
+        word-break: keep-all;
+    }
+    .multi-select-menuitem input {
+        width: 25px;
+        height: 25px;
+    }
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+    #login-box {
+        width: 300px !important;
+    }
+    .col-sm-3, .col-sm-2 {
+        width: 50% !important;
+        font-size: 100% !important;
+    }
+    .col-md-5, .col-md-7 {
+        width: 100% !important;
+    }
+    .large {
+        font-size: 125% !important;
+    }
+    
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 568px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+    #login-box {
+        width: 300px !important;
+    }
+    
+    .col-sm-3, .col-sm-2 {
+        width: 50% !important;
+        font-size: 100% !important;
+    }
+    .col-md-5, .col-md-7 {
+        width: 100% !important;
+    }
+    .large {
+        font-size: 125% !important;
+    }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2) { 
+    #login-box {
+        width: 300px !important;
+    }
+    
+    .col-sm-3, .col-sm-2 {
+        width: 50% !important;
+        font-size: 100% !important;
+    }
+    .col-md-5, .col-md-7 {
+        width: 100% !important;
+    }
+    .large {
+        font-size: 125% !important;
+    }
+}
+
+/* Portrait */
+/* SAMSUNG */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+    #login-box {
+        width: 300px !important;
+    }
+    
+    .col-sm-3, .col-sm-2 {
+        width: 50% !important;
+        font-size: 100% !important;
+    }
+    .col-md-5, .col-md-7 {
+        width: 100% !important;
+    }
+    .large {
+        font-size: 125% !important;
+    }
+    .form-label, .ms-parent {
+        /*font-size: 20px !important; */
+        padding: 10px !important; 
+        padding-bottom: 15px !important; 
+        margin-bottom: 20px !important; 
+        margin-top: 20px !important; 
+    }
+    
+    .form-control {
+        
+        padding-bottom: 25px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .selectfc {
+        width: 100% !important;
+    }
+    .form-control, .button_b, li a {
+        /*font-size: 20px !important; */
+        padding: 10px !important; 
+        height: 40px;
+    }
+    
+    .modal-body {
+        padding-bottom: 100px;
+    }
+
+    ul.tabs {
+        height: auto;
+    }
+    ul.tabs li {
+        font-size: 25px !important;
+        width: 100% !important;
+        max-width: 24% !important;
+    }
+    
+    .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+        padding-top: 20px;
+    }
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 667px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+    .form-label {
+        font-size: 16px;
+    }
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+    #login-box {
+        width: 300px !important;
+    }
+    
+    .col-sm-3, .col-sm-2 {
+        width: 50% !important;
+        background-color: RED;
+    }
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 414px) 
+and (max-device-width: 736px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
+    #login-box {
+        width: 300px !important;
+    }
+    
+    .logo0 {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 10% !important;
+    }
+    
+    .col-sm-3, .col-sm-2 {
+        width: 50% !important;
+    }
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) { 
+
+}

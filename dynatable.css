@@ -1,0 +1,91 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03 10, 19, 9:24:52 PM
+    Authora
+*/
+
+/* Styles go here */
+
+.dataTables_wrapper {
+    float: left;
+    width: 100%;
+    clear: none
+}
+#table2_wrapper{
+
+
+}
+#table1_wrapper{
+
+
+}
+table.dataTable tbody tr.selected {
+    background-color: RED;
+
+}
+table.dataTable.display tbody tr.odd.selected > .sorting_1, table.dataTable.order-column.stripe tbody tr.odd.selected > .sorting_1 {
+    background-color: #ddd;
+}
+table.dataTable.display tbody tr:hover.selected > .sorting_1, table.dataTable.display tbody tr.odd:hover.selected > .sorting_1, table.dataTable.display tbody tr.even:hover.selected > .sorting_1, table.dataTable.order-column.hover tbody tr:hover.selected > .sorting_1, table.dataTable.order-column.hover tbody tr.odd:hover.selected > .sorting_1, table.dataTable.order-column.hover tbody tr.even:hover.selected > .sorting_1 {
+    background-color:RED;
+    cursor: pointer;
+}
+table.dataTable {
+    color: #111;
+}
+
+table.dataTable tbody tr.selected td {
+    background-color: #ffff99;
+    color: #222;
+}
+
+.dataTables_length {
+
+    border: solid 5px #eee;
+
+}
+
+.dataTables_paginate {
+    color: RED;
+}
+
+#RightMove {
+
+    height: 40px;
+    background: url('/skyfos/static/img/mover.png') center right no-repeat;
+    background-size: 32px 32px; 
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: url('/skyfos/static/img/arrow1.png')  rgb(66, 184, 221); /* this is a light blue */
+    background-repeat: no-repeat;
+    background-size: 20px 25px; 
+    background-position: center right;
+    padding-right: 25px;
+}
+
+#LeftMove {
+
+    height: 40px;
+
+
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    color: white;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: url('/skyfos/static/img/arrow4.png') rgb(66, 184, 221) ; /* this is a light blue */
+    background-repeat: no-repeat;
+    background-size: 25px 30px; 
+    background-position: center left;
+    padding-left: 25px;
+}
+

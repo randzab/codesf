@@ -1,0 +1,212 @@
+.nestedsidemenu-sky {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    
+    width: 100%;
+    z-index: 10 !important;
+    letter-spacing: 1px;
+    position: relative;
+    
+    
+}
+
+
+/* Top Level Menu */
+.nestedsidemenu-sky ul {
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+    position: inherit;
+    list-style: none;
+}
+
+/* Top level list items */
+.nestedsidemenu-sky ul li {
+    position: relative;
+    
+      border-bottom: 1px solid transparent;
+  border-image: linear-gradient(to right, #2299ff, #BBBBBB);
+  border-image-slice: 1;
+}
+
+/* Top level menu items link style */
+.nestedsidemenu-sky ul li a, .nestedsidemenu-sky ul li span {
+    display: block;
+    position: relative;
+    /* background of menu items (default state) */
+    background: #008c9e;
+
+    background-color: #2299ff;
+    color: white;
+    padding: 15px 20px;
+    color: #2d2b2b;
+    text-decoration: none;
+}
+
+
+.nestedsidemenu-sky ul li a:link, .nestedsidemenu-sky ul li a:visited {
+    color: white;
+    font-size: 13px;
+}
+
+/* Top level menu items link style on hover and when active */
+.nestedsidemenu-sky ul li:hover > a {
+    background: #005f6b;
+
+    background-color: #2299ff;
+
+    background: #FFF;
+    color: #000;
+    box-shadow: 2px 2px 2px 2px #999999;
+    font-size: 13px;
+}
+
+/* Sub ULs style */
+.nestedsidemenu-sky ul li ul {
+    position: absolute;
+    left: -5000px;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    visibility: hidden;
+    box-shadow: 2px 2px 5px gray;
+    -webkit-transition: opacity .3s, visibility 0s .3s, left 0s .3s;
+    transition: opacity .3s, visibility 0s .3s, left 0s .3s;
+    
+    z-index: 1;
+}
+
+/* First Sub Levels UL style on hover */
+.nestedsidemenu-sky ul li:hover > ul {
+    visibility: visible;
+    left: 100%;
+    opacity: 1;
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+
+}
+
+/* Sub level Menu list items (alters style from Top level List Items) */
+.nestedsidemenu-sky ul li ul li {
+    display: list-item;
+    float: none;
+}
+
+/* 2nd and beyond Sub Levels vertical offset after 1st level sub menu */
+.nestedsidemenu-sky ul li ul li ul {
+    top: 0;
+    left: 100%;
+}
+
+/* Sub Levels link style on hover and when active */
+.nestedsidemenu-sky ul ul li:hover > a {
+    background: #FFF;
+    color: #000;
+
+    box-shadow: 2px 2px 2px 2px #999999;
+
+}
+
+/* Sub Levels UL style on hover */
+.nestedsidemenu-sky ul ul li:hover > ul {
+    left: 100%;
+}
+
+/* Sub level menu links style */
+.nestedsidemenu-sky ul li ul li a {
+    font: normal 14px 'Bitter', sans-serif;
+    padding: 10px;
+    margin: 0;
+    background: #4ea1d3;
+
+    background-color: #2299ff;
+    border-right: none;
+    border-top-width: 0;
+}
+
+/* LIs with a sub UL style */
+.nestedsidemenu-sky ul li > a {
+    /* add padding to accomodate arrow inside LIs */
+    padding-right: 25px;
+}
+
+/* LIs with NO sub UL style */
+.nestedsidemenu-sky ul li > a:only-child {
+    /* undo padding for non submenu LIs */
+    padding-right: 10px;
+}
+
+/* LIs with a sub UL pseudo class */
+.nestedsidemenu-sky ul li > a:after {
+    /* add arrow inside LIs */
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    border: 5px solid transparent;
+    border-left-color: #FFFFFF;
+    top: 40%;
+    right: 8px;
+}
+
+/* LIs with NO sub UL pseudo class */
+.nestedsidemenu-sky ul li > a:only-child:after {
+    /* undo arrow for non submenu LIs */
+    display: none;
+}
+
+
+/* ####### responsive layout CSS ####### */
+
+@media (max-width: 923px) {
+    /* FIRST breaking point
+    Last top menu items' sub ULs should drop to the left (instead of right)
+    Change 1 to a different number to exclude/include more top menu items based on menu and max-width setting above
+    */
+
+    .nestedsidemenu-sky ul li:nth-last-of-type(-n+1) ul li:hover > ul {
+        left: -100%;
+    }
+}
+
+@media (max-width: 500px) {
+    /* SECOND breaking point 
+    For mobile and screen browser windows
+    Get Sub ULs to expand entire width of document and drop down
+    Changes menu reveal type from "visibility" to "display" to overcome bug. See comments below
+    */
+    .nestedsidemenu-sky{
+        width: 100%;
+    }
+
+    .nestedsidemenu-sky ul li > a:after {
+        /* add arrow inside LIs */
+        content: "";
+        position: relative;
+        height: 0;
+        width: 0;
+        border: 5px solid transparent;
+        border-left-color: transparent;
+        border-top-color: #fff;
+        top: 40%;
+        right: 8px;
+    }
+
+    .nestedsidemenu-sky ul li {
+        position: relative;
+    }
+
+    .nestedsidemenu-sky ul li ul {
+        width: 100%;
+        border-top: 2px solid rgba(0,0,0,.6);
+        display: none;
+    }
+
+    .nestedsidemenu-sky ul li:hover > ul {
+        display: block;
+        left: 0 !important;
+        top: auto;
+        box-shadow: 0 0 12px gray;
+        font-size: 13px !important;
+    }
+}

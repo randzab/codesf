@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 15, 23, 1:02:57 AM
+    Author     : bar2132
+*/
+
+/** SEARCH INPUT BOX CSS BG **/
+.hide-tbox {
+    display: none;
+}
+    
+.show-tbox {
+    display: inline-block;
+}
+
+.clzrtsh {
+    background-color: transparent !important;
+    background: none !important;
+    border: none;
+}
+
+/** SEARCH INPUT BOX CSS BG **/
+
+/*** BUTTONS ***/
+.btn-disabled {
+    background-color: LIGHTGRAY !important;
+    cursor: not-allowed;
+}
+
+/*** BUTTONS ***/
+
+/*** WIDTH ***/
+
+.wid-90 {
+    min-width: 75%;
+}
+
+#swal-txta1 {
+    height: 100px;
+    border: solid 1px #AAA;
+}
+/*** WIDTH ***/
+
+/**** SWAL ALERT2 CSS ****/
+.swal2-footer {
+    display: flex !important;
+    background-color: #2299ff;
+    vertical-align: middle;
+    padding-bottom: 10px !important;
+    border-top: solid 2px #999 !important;
+    border-bottom: solid 2px #999;
+    color: #000 !important;
+}
+
+/**** SWAL ALERT2 CSS ****/
+
+
+/*** CURSOR ****/
+
+#cbkpview {
+    cursor: pointer !important;
+}
+
+/*** CURSOR ****/
+
+
+/*** TABLE CSS ***/
+
+.canceldb, .canceldb > td > a {
+    color: #000 !important;
+}
+
+.noshowb td, noshowb > td, td.noshowb {
+    background-color: #AAA !important;
+}
+
+/*** TABLE CSS ***/
+
